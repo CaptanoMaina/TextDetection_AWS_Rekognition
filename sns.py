@@ -14,9 +14,9 @@ import boto3
 from botocore.exceptions import ClientError
 
 
-client = boto3.client('sns',  aws_access_key_id="ASIA6ELGL3SCYT3TOMNI",
-                      aws_secret_access_key="o8qvL+IPhQdVogrnqFoKlztBOrYLYcLSiGsUnNmg",
-                      aws_session_token="FwoGZXIvYXdzEDEaDG8eIrF6sArdfJ/JBiLHATsA3446WwZt7FeodnIIRSUg8JOK+FB4Q4lC5RLKRoi9idwRjKx4u7dHPffprv2SjM4UOhql9OX2ggqq1a3T0qkFzWHnWlC0pA0DMppG0oGHYcNL+pgbyyNnXozuztTXJY2uVTjx0L5QN9L/BI2DZ6LU4jEWwEPArlKZgPOXOFj0F2AcS0pKkNZQra7z8vDkkbqFc975OBllk6Mi2Leip3AGYP3mMBjgOCmGSvNmnfVMQUAZhPVPa1wyC3WQrt0NOMDO3Y4mSOcotoKCkgYyLb/ZDdlB6f2+X/LxsckqRX68w4eFkPfd62dbdVcTk6DuJ9qGRyO0wcnHDQhQqA==", region_name="us-west-2")
+client = boto3.client('sns',  aws_access_key_id="",
+                      aws_secret_access_key="",
+                      aws_session_token="")
 
 
 def create_sns(topic_name):

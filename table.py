@@ -14,9 +14,9 @@ This script:
 import boto3
 
 # creates resource for dynamoDB
-dynamodb = boto3.client("dynamodb",  aws_access_key_id="ASIA6ELGL3SCYT3TOMNI",
-                        aws_secret_access_key="o8qvL+IPhQdVogrnqFoKlztBOrYLYcLSiGsUnNmg",
-                        aws_session_token="FwoGZXIvYXdzEDEaDG8eIrF6sArdfJ/JBiLHATsA3446WwZt7FeodnIIRSUg8JOK+FB4Q4lC5RLKRoi9idwRjKx4u7dHPffprv2SjM4UOhql9OX2ggqq1a3T0qkFzWHnWlC0pA0DMppG0oGHYcNL+pgbyyNnXozuztTXJY2uVTjx0L5QN9L/BI2DZ6LU4jEWwEPArlKZgPOXOFj0F2AcS0pKkNZQra7z8vDkkbqFc975OBllk6Mi2Leip3AGYP3mMBjgOCmGSvNmnfVMQUAZhPVPa1wyC3WQrt0NOMDO3Y4mSOcotoKCkgYyLb/ZDdlB6f2+X/LxsckqRX68w4eFkPfd62dbdVcTk6DuJ9qGRyO0wcnHDQhQqA==", region_name="us-west-2")
+dynamodb = boto3.client("dynamodb",  aws_access_key_id="ASIA6ELGL3SC7XVXFXG2",
+                        aws_secret_access_key="2jiFd2278edE24YLB4weYMj0VpFVPK/SvFal3AHL",
+                        aws_session_token="FwoGZXIvYXdzEDYaDBg+gu6s3UEb+gQmZSLHAa8ytgjrnKPi7Cu9oG5NHi9+u3Vsecvic+FLWvS6IvgivAdKsnP9MdXo8lqXPhbQKFB+TFdLX3F7DKsm+v2Z4S8lRczL1ZC4NSUkN1s2vWveiehX5aKVYlltxuzE93awkOH9QmIrK/J1NmA2G7hz1InuvGgcVaS63MU3M3At1hJ3b3Z9QuzhASRJjAr7voJIieRPkd7mqpaG5LHdC7upEhMMlv5WaMjTuY/Lk28s/8Bd6l5kynO2jqwEyzrNZxmTH5+kR1BPobsoy4+DkgYyLd81wP6Si2wlGQ6PZD69sKM+FRtakx0hAsyk+dUWDcVcyFS8Pi50ulazkBipwQ==", region_name="us-west-2")
 
 # retrieve a list of tables starting with 'TEXT'
 # creates a new table called TEXT-s1906597-table if it does not exist
